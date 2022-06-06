@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 47px 31px 121px;
+    height: 232px;
+}
+
+img {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    width: 324px;
+    height: 232px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:hover {
+    border-top: 4px solid #0065fc;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0065fc;
+    font-size: 20px;
+}
+
+nav
