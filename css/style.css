@@ -19,3 +19,7 @@ body {
 .grisfond {
     color: #f2f2f2;
 }
+
+.Maj {
+    text-transform: capitalize;
+}
