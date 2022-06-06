@@ -1,0 +1,134 @@
+#recherche {
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+#recherche h1 {
+    width: 573px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#recherche > p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 936px;
+    height: 51px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.form p {
+    
+    width: 50px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    
+}
+
+.recherche-area {
+    width: 234px;
+    height: 52px;
+    padding: 0 35px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+}
+
+.recherche-bouton {
+    width: 129px;
+    height: 52px;
+    background-color: #0065fc;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    font-size: 16px;
+}
+
+.recherche-bouton:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Filtre-bloc {
+    display: flex;
+    width: 936px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.Filtre-bloc h2 {
+    font-weight: 700px;
+    font:normal;
+}
+
+.filtres {
+    position: relative;
+    border: 1px solid #f2f2f2;
+    border-radius: 25px;
+    padding: 17px 24px 17px 62px;
+}
+
+.filtres p {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #0065fc;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.filtres h3 {
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 462px;
+    padding-left: 4px;
+}
+
+.info > p:nth-child(1) {
+    width: 23px;
+    height: 23px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50%;
+    color: #0065fc;
+    font-size: 15px;
+    padding: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > p:nth-child(2) {
+    font-size: 16px;
+    
+}
