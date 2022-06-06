@@ -1,3 +1,21 @@
 * {
     box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bleuclaire {
+    color: #deebff;
+}
+
+.bleu {
+    color: #0065fc;
+}
+
+.grisfond {
+    color: #f2f2f2;
+}
