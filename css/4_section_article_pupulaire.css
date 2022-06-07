@@ -1,0 +1,34 @@
+.container-populaire {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    box-shadow: 0 0 10px grey;
+    position: relative;
+}
+
+.container-populaire:hover {
+    bottom: -5px;
+}
+
+.populaire-img {
+    width: 96px;
+    height: 144px;
+    border-radius: 25px 0 0 25px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.populaire-img img {
+    width: 150%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.h1-populaire {
+    margin-bottom: 25px;
+}
