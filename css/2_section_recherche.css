@@ -158,6 +158,7 @@
 }
 
 @media screen and (max-width: 992px) {
+
     #recherche h1 {
         font-size: 16px;
         margin-bottom: 10px;
@@ -178,7 +179,7 @@
     }
 
     .recherche-area {
-        width: 190px;        
+        width: 360px;        
     }
 
     .recherche-bouton {
@@ -236,7 +237,7 @@
     .form {
         width: inherit;
     }
-    
+
     .form p {
         width: 50px;    
         font-size: 18px; 
