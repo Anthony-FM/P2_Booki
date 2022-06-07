@@ -82,6 +82,8 @@
 
 .Filtre-bloc h2 {
     margin-right: 25px;
+    font-weight: bold;
+
 }
 
 
@@ -89,6 +91,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.filtre-flex a {
+    text-decoration: none;
+    color: black;
+}
+
+.filtre-flex a:hover {
+    color: #0065fc;
 }
 
 .filtres {
@@ -175,7 +186,7 @@
     }
 
     .filtre-flex {
-        width: 480px;
+        width: 90%;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -197,21 +208,42 @@
 
     #recherche {
        justify-content: center;
+       margin: 36px 5% 0;
     }
+
+    #recherche h1 {
+        width: 100%;
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    #recherche > p {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 39px;
+    }
+    
 
     form {
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
-        width: inherit;
+        width: 100%;
     }
 
     .form {
         width: inherit;
     }
+    
     .form p {
-        width: 50px;
+        width: 50px;    
+        font-size: 18px; 
+    }
+
+    .recherche-area {
+        padding: 0 17px;
     }
 
     .recherche-bouton {
@@ -241,8 +273,29 @@
     }
 
     .recherche-area {
-        min-width: 410px;
-        max-width: 600px;
+        width: 100%;
     }
     
+    .Filtre-bloc {
+        flex-direction: column;
+        margin-top: 22px;
+    }
+
+    .Filtre-bloc h2 {
+        margin-right: none;
+        margin-bottom: 18px;
+    }
+
+    .filtres {
+        padding: 13px 15px 10px 57px;
+        margin-right: 8px;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info p:nth-child(1) {
+        margin-right: 8px;
+    }
 }
