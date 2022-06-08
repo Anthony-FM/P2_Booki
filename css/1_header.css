@@ -23,18 +23,18 @@ nav li {
     border-top: 0px solid #0065fc;
 }
 
+nav li:hover a {     
+    color: #0065fc;
+}
+
 nav li:hover {
-    border-top: 4px solid #0065fc;    
+    border-top: 4px solid #0065fc;   
 }
 
 nav a {
     text-decoration: none;
     color: black;
     font-size: 14px;    
-}
-
-nav a:hover {
-    color: #0065fc;
 }
 
 @media screen and (max-width: 992px) {
