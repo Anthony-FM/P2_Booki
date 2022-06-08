@@ -91,16 +91,15 @@
 }
 
 .hebergement-img img {
-    width: 150%;
+    width: 175%;
     position: absolute;
     left: 50%;
-    top: 0%;
+    top: 10%;
     transform: translate( -50%, -50%);
 }
 
-
-
 /****** Images ******/
+
 
 /****** Bloc texte ******/
 
