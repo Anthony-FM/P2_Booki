@@ -1,0 +1,53 @@
+#activite {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 25px auto;
+}
+
+#activite h1{
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.container_activite {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 446px;
+}
+
+.un_bloc, .deux_bloc {
+    width: 22.5%;
+    overflow: hidden;        
+}
+
+.un_bloc, .activitemoyen, .activitecourt {
+    border-radius: 25px;
+}
+
+.un_bloc img {
+    width: 300%;
+    overflow: hidden;
+    transform: translate( -60%, -4%);
+    position: relative;
+}
+
+.activitemoyen {
+    width: 100%;
+    height: 64%;
+}
+
+.activitemoyen img{
+    width: 150%;
+    overflow: hidden;
+    transform: translate( -47%, -37%);
+    position: relative;
+    
+}
+
+.activitecourt {
+    width: 100%;
+    height: 32%;
+}
+   
