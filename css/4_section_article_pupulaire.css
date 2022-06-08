@@ -6,6 +6,7 @@
     padding: 5px;
     box-shadow: 0 0 10px grey;
     position: relative;
+    margin-bottom: 25px;
 }
 
 .container-populaire:hover {
@@ -22,7 +23,7 @@
 }
 
 .populaire-img img {
-    width: 150%;
+    width: 250%;
     position: absolute;
     left: 50%;
     top: 50%;
