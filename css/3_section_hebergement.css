@@ -6,11 +6,11 @@
 }
 
 #hebergement .hebergement_article:nth-child(1) {
-    width: 65%;
+    width: 67%;
 }
 
 #hebergement .hebergement_article:nth-child(2) {
-    width: 31%;
+    width: 30%;
 }
 
 .hebergement_article {
@@ -54,7 +54,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     
 }
