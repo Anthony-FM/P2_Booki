@@ -294,6 +294,7 @@
 
     .info {
         width: 100%;
+        justify-content: start;
     }
 
     .info p:nth-child(1) {
