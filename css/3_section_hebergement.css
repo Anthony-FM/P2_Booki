@@ -1,6 +1,6 @@
 .hebergement {
     width: 90%;
-    margin: 5%;
+    margin: 25px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -249,7 +249,7 @@
         flex-direction: column;
     }
 
-    .h1-populaire, .hebergement_article > h1 {
+    .h1-populaire {
         margin: 20px;
         display: flex;
         justify-content: space-around;
