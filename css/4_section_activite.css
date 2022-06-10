@@ -18,8 +18,14 @@
     height: 446px;
 }
 
+.activite_bloc {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .un_bloc, .deux_bloc {
-    width: 22.5%;      
+    width: 48%;      
 }
 
 .long, .moyen, .court{
@@ -48,7 +54,7 @@
     bottom: 0px;
     width: 100%;
     background-color: white;
-    padding: 15px 0 35px 10px;
+    padding: 15px 0 35px 15px;
     height: 30px;
     border-radius: 0 0 24px 24px;
 }
@@ -59,6 +65,7 @@
 
 .container_activite h2 {
     font-weight: bold;
+    font-size: 14px;
 }
 
 .activitemoyen {
@@ -74,8 +81,8 @@
 }
 
 .long img {
-    width: 279%;
-    transform: translate( -14%, -12%);
+    width: 350%;
+    transform: translate( -18%, -12%);
 }
 
 .moyen {
@@ -95,3 +102,96 @@
     transform: translate(-18%, -18%);
     width: 165%;
 }
+
+/*Média quéries tablette */
+
+@media screen and (max-width:992px) {
+    .container_activite {
+        flex-wrap: wrap;
+        width: 100%;
+        height: inherit;
+        align-items: center;
+    }
+
+    .activite_bloc {
+        flex-direction: column;
+    }
+
+    .un_bloc, .deux_bloc {
+        width: 90%;
+        max-width: 450px; 
+        margin-bottom: 20px; 
+    }
+
+    .un_bloc {
+        height: 200px;
+    }
+
+    .deux_bloc {
+        height: 420px;
+    }
+
+    .activitemoyen, .activitecourt {
+        width: 100%;
+        height: 200px;
+    }
+    .long img {
+        width: 127%;
+        transform: translate( -1%, -36%);
+    }
+
+    .moyen img {
+        transform: translate(-9%, -39%);
+        width: 110%;
+    }
+
+    .court img {
+        transform: translate(-5%, -18%);
+        width: 124%;
+    }
+}
+
+/*Média queries mobile*/
+
+@media screen and (max-width:768px) {
+    .container_activite {
+        flex-direction: column;
+        width: 100%;
+        height: inherit;
+        align-items: center;
+    }
+
+    .un_bloc, .deux_bloc {
+        width: 90%;
+        max-width: 450px; 
+        margin-bottom: 20px; 
+    }
+
+    .un_bloc {
+        height: 200px;
+    }
+
+    .deux_bloc {
+        height: 420px;
+    }
+
+    .activitemoyen, .activitecourt {
+        width: 100%;
+        height: 200px;
+    }
+    .long img {
+        width: 127%;
+        transform: translate( -1%, -36%);
+    }
+
+    .moyen img {
+        transform: translate(-9%, -39%);
+        width: 110%;
+    }
+
+    .court img {
+        transform: translate(-5%, -18%);
+        width: 124%;
+    }
+}
+
