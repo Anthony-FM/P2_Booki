@@ -1,13 +1,14 @@
-#activite {
+.activite {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 25px auto;
 }
 
-#activite h1{
+.activite h1{
     font-size: 18px;
     margin: 25px 0;
+    font-weight: bold;
 }
 
 .container_activite {
@@ -18,36 +19,79 @@
 }
 
 .un_bloc, .deux_bloc {
-    width: 22.5%;
-    overflow: hidden;        
+    width: 22.5%;      
 }
 
-.un_bloc, .activitemoyen, .activitecourt {
+.long, .moyen, .court{
+    overflow: hidden;
+    border-radius: 25px;   
+}   
+
+.un_bloc {
+    height: 446px;
+}
+
+.deux_bloc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activitecourt, .activitemoyen, .un_bloc {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 25px;
 }
 
-.un_bloc img {
-    width: 300%;
-    overflow: hidden;
-    transform: translate( -60%, -4%);
-    position: relative;
+.activitecourt a, .activitemoyen a, .un_bloc a {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 15px 0 35px 10px;
+    height: 30px;
+    border-radius: 0 0 24px 24px;
+}
+
+.activite a:hover {
+    color: #0065fc;
+}
+
+.container_activite h2 {
+    font-weight: bold;
 }
 
 .activitemoyen {
-    width: 100%;
-    height: 64%;
-}
-
-.activitemoyen img{
-    width: 150%;
-    overflow: hidden;
-    transform: translate( -47%, -37%);
-    position: relative;
-    
+    height: 240px;
 }
 
 .activitecourt {
-    width: 100%;
-    height: 32%;
+    height: 182px;
 }
-   
+
+.long {
+    height:100%;
+}
+
+.long img {
+    width: 279%;
+    transform: translate( -14%, -12%);
+}
+
+.moyen {
+    height: 100%;
+}
+
+.moyen img {
+    transform: translate(-18%, -35%);
+    width: 165%;
+}
+
+.court {
+    height: 100%;
+}
+
+.court img {
+    transform: translate(-18%, -18%);
+    width: 165%;
+}
