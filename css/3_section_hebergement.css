@@ -34,12 +34,12 @@
     justify-content: space-between;
 }
 
-#more {
+.displaymore {
     margin-top: 25px;
     width: max-content;
 }
 
-#more a:hover {
+.displaymore a:hover {
     color: #0065fc;
 }
 
@@ -179,6 +179,8 @@
     margin-bottom: 25px;
 }
 
+/*Média quéries tablette */
+
 @media screen and (max-width: 992px) {
     .hebergement {
         flex-direction: column-reverse;
@@ -230,6 +232,8 @@
     }
 }  
 
+/*Média Quéries Mobile*/
+
 @media screen and (max-width: 768px) {
     .hebergement {
         width: 100%;
@@ -252,7 +256,7 @@
     }
 
     .container-card-populaire a {
-        width: 70%;
+        width: 90%;
         max-width: 450px;
         margin: auto;
     }
@@ -268,13 +272,13 @@
     }
 
     .container a {
-        width: 70%;
+        width: 90%;
         max-width: 450px;
         margin: auto;
     }
 
-    #more {
-        margin: 25px auto;
+    .displaymore {
+        margin: 25px;
         font-size: 14px;
     }
 
