@@ -1,3 +1,49 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 5%;
+}
+
+.footerdiv {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footerdiv h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footerul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerul li {
+    margin-bottom: 10px;
+}
+
+.footerul li:hover a{
+    color: #0065fc;
+}
 /*Média quéries tablette */
 
 /*Média Quéries Mobile*/
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10%;
+    }
+
+    .footerdiv {
+        justify-content: center;
+        width: inherit;
+        margin-bottom: 25px;
+    }
+}
