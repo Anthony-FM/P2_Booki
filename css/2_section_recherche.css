@@ -1,4 +1,4 @@
-#recherche {
+.recherche {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -8,14 +8,14 @@
 
 }
 
-#recherche h1 {
+.recherche h1 {
     width: 573px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
-#recherche > p {
+.recherche > p {
     font-size: 15px;
     margin-bottom: 20px;
 }
@@ -157,14 +157,16 @@
     
 }
 
+/*Média quéries tablette */
+
 @media screen and (max-width: 992px) {
 
-    #recherche h1 {
+    .recherche h1 {
         font-size: 16px;
         margin-bottom: 10px;
     }
 
-    #recherche > p {
+    .recherche > p {
         font-size: 14px;
         margin-bottom: 10px;
     }
@@ -207,19 +209,19 @@
 
 @media screen and (max-width: 768px) {
 
-    #recherche {
+    .recherche {
        justify-content: center;
        margin: 36px 5% 0;
     }
 
-    #recherche h1 {
+    .recherche h1 {
         width: 100%;
         font-size: 24px;
         text-align: left;
         margin-bottom: 20px;
     }
 
-    #recherche > p {
+    .recherche > p {
         width: 100%;
         font-size: 16px;
         margin-bottom: 39px;
@@ -288,7 +290,7 @@
     }
 
     .filtres {
-        padding: 13px 15px 10px 57px;
+        padding: 13px 13px 13px 45px;
         margin-right: 8px;
     }
 
