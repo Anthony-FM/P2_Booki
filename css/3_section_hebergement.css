@@ -1,15 +1,15 @@
-#hebergement {
+.hebergement {
     width: 90%;
     margin: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-#hebergement .hebergement_article:nth-child(1) {
+.hebergement .hebergement_article:nth-child(1) {
     width: 67%;
 }
 
-#hebergement .hebergement_article:nth-child(2) {
+.hebergement .hebergement_article:nth-child(2) {
     width: 30%;
 }
 
@@ -181,7 +181,7 @@
 }
 
 @media screen and (max-width: 992px) {
-    #hebergement {
+    .hebergement {
         flex-direction: column-reverse;
 
     }
@@ -195,11 +195,11 @@
         margin: auto;
     }
 
-    #hebergement .hebergement_article:nth-child(2) {
+    .hebergement .hebergement_article:nth-child(2) {
         width: 100%;
     }
 
-    #hebergement .hebergement_article:nth-child(1) {
+    .hebergement .hebergement_article:nth-child(1) {
         width: 100%;
         background-color: white;
         margin-top: 10px;
@@ -224,7 +224,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    #hebergement {
+    .hebergement {
         width: 100%;
         margin: inherit;
         margin-top: 15px;
