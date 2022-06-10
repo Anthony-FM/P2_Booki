@@ -169,10 +169,10 @@
 }
 
 .populaire-img img {
-    width: 400%;
+    width: 265%;
     position: absolute;
     left: 50%;
-    top: 30%;
+    top: 50%;
     transform: translate( -50%, -50%);
 }
 
@@ -217,11 +217,18 @@
     .etoiles {
         font-size: 12px;
     }
+    .hebergement-img img{
+        width: 120%;
+        top: 50%;
+    }
 
     .populaire-img {
         margin-right: 5px;
     }
-}
+    .populaire-img img {
+        width: 312%;
+    }
+    
 
 @media screen and (max-width: 768px) {
     .hebergement {
@@ -272,6 +279,10 @@
     }
 
     .hebergement-img img {
-        top: 0;
-    } 
+        top: 50%;
+        width: 100%;
+    }
+    .populaire-img img {
+        width: 265%;
+    }
 }
