@@ -37,6 +37,8 @@ nav a {
     font-size: 14px;    
 }
 
+/*Média quéries tablette */
+
 @media screen and (max-width: 992px) {
 
     header {
@@ -56,6 +58,8 @@ nav a {
         align-items: center;
     }    
 }
+
+/*Média Quéries Mobile*/
 
 @media screen and (max-width: 768px) {
 
