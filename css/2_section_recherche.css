@@ -281,7 +281,7 @@
     }
 
     .Filtre-bloc h2 {
-        margin-right: none;
+        margin-right: inherit;
         margin-bottom: 18px;
     }
 
