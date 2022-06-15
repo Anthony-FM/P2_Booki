@@ -38,7 +38,7 @@ footer {
     footer {
         flex-direction: column;
         justify-content: space-between;
-        padding: 10%;
+        padding: 5% 10% 0;
     }
 
     .footerdiv {

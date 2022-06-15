@@ -25,7 +25,6 @@
 
 .hebergement_article h2 {
     padding-left: 3px;
-    font-weight: bold;
     font-size: 20px;
 }
 
@@ -251,9 +250,8 @@
     }
 
     .h2-populaire {
-        margin: 20px;
+        margin: 20px 0;
         display: flex;
-        justify-content: space-around;
     }
 
     .container-card-populaire a {
